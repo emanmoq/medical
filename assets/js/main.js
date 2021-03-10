@@ -65,7 +65,9 @@ jQuery(function ($) {
   //close mobile navbar when chooe one of items
   $(".navbar .nav-link").click(function () {
     $(".collapse").removeClass("show");
-  })
+  });
+  //for date picker
+  $( "#datepicker" ).datepicker();
 
 });
 

@@ -532,6 +532,28 @@ border-top:1px solid var(--shadow-hover-color)
 .fa-phone{
     transform: rotate(96deg);
 }
+.modal{
+    z-index: 99999999999999;
+}
+.modal-dialog{
+    max-width:85%;
+    border-radius: 15px;
+
+        }
+        .modal-content{
+            border-radius: 15px;
+            padding:50px 30px
+        }
+        .modal-body{
+            text-align: center;
+        }
+        .modal-body h3{
+            color:var(--main-color);
+            font-size:2.111111111111111em;
+        }
+        .modal .contactForm{
+            margin-top:50px;
+        }
 @media(min-width:300px) and (max-width:767px){
     section{
         padding-top:50px !important;
@@ -653,6 +675,7 @@ header{
         float: none;
         margin-top:30px;
     }
+
 }
 @media(min-width:768px) and (max-width:1023px){
     section{
