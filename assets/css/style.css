@@ -188,10 +188,6 @@ z-index: -1;
 .navbar {
     padding:0;
 }
-.navbar-expand-lg .navbar-nav{
-    margin-top:10px;
-}
-
 .contactHeader{
     float: left;
 }
@@ -211,9 +207,7 @@ z-index: -1;
 .contactHeader i{
  transform: rotate(-21deg);
 }
-.heroSection{
-    padding-top:135px;
-}
+
 .heroText{
     margin-top:70px;
     position: relative;
@@ -539,6 +533,11 @@ border-top:1px solid var(--shadow-hover-color)
     transform: rotate(96deg);
 }
 @media(min-width:300px) and (max-width:767px){
+    section{
+        padding-top:50px !important;
+        padding-bottom:50px !important;
+        margin:0 !important
+    }
     .navbar-expand-lg .navbar-nav{
         width:100%;
     }
@@ -572,6 +571,7 @@ header{
 
     .socialIcons{
       float: none;
+      width:100%;
     }
     .heroText{
         margin-top: 0px;
@@ -614,64 +614,74 @@ header{
         width:100%;
         margin-top:20px;
     }
-.contactUs {
-    padding: 50px 0;}
-.aboutImg{
-    height: auto;
-    margin: 10px auto;
-    width:100%;
-}
-
 
 .btn{
     width: 100%;;
 }
-
+.advImg{
+    height: auto;
+}
+.advImg img{
+    height: auto;
+    width:100%;
+}
 .navbar-collapse{
     background-color: white;
     width:100%;
     ;
 }
+.heroItem{
+    margin-top:20px;
+}
+.contactHeader{
+    float: none;
+}
+.serviceBox{
+    margin-bottom: 20px;;
+}
+.advIcon {
+    width: 50px;
+    height: 60px;}
+    .contactForm .form-group{
+        width:100%;
+
+    }
+    .marginFormGroup{
+        margin: 0;;
+    }
+    .copyRights h3{
+        float: none;
+        margin-top:30px;
+    }
 }
 @media(min-width:768px) and (max-width:1023px){
+    section{
+        padding-top:100px !important;
+        padding-bottom:50px !important;
+        margin:0 !important
+    }
     .navbar-expand-lg .navbar-nav{
         width:auto;
     }
     body{
-        font-size:14px
+        font-size:13px
     }
-
-}
+    .navbar-brand.logo{
+        margin-left:7px;
+        width:70px;
+    }
+    .squre {
+        width: 81px;}
 .owl-carousel .owl-stage-outer{
 overflow: hidden;
 }
 footer{
     padding:20px 0;
 }
-
-
     .hero{
         padding:20px 0;
     }
   
-    .socialIcons{
-        text-align: center;
-    }
-    .socialIcons li{
-        float: none;
-        width:30px;
-        height:30px;
-    }
-    .socialIcons li a {
-        font-size: 14px;;
-    }
-    .socialIcons li i{
-        line-height:24px;
-    }
-    .heroText{
-        margin-top: 20px;
-    }
-
     .navbar-expand-lg .navbar-collapse{
         display: flex;
         flex-basis: auto;
@@ -684,13 +694,6 @@ footer{
         width:100%;
         margin-top:20px;
     }
-    .heroSection{
-        padding-top: 50px;;
-    }
-   
-.contactUs {
-    padding: 50px 0;}
-
          .navbar-nav {
             display: -ms-flexbox;
             display: flex;}
@@ -698,24 +701,12 @@ footer{
                 -ms-flex-direction: row;
                 flex-direction: row;
             }
-            .navbar-brand.logo{
-                margin-left:0;
-                color:var(--main-color)
-            }
-            .subscribeBox .form-control{
-                width:150px;
-                margin:0 5px;
-            }
-            .subscribeBox .subscribeBtn{
-                width:100px;
-            }
+    
+
 header{
     padding-top:0;
 }
-.navbar-brand.logo{
-    width:50px;
-    margin-left:50px;
-}
+
 .scrollNav .navbar-brand.logo{
     width:50px;
 }
@@ -727,34 +718,46 @@ header{
 .aboutImg{
     height: auto;;
 }
-.about{
-    padding:20px 0;
-}
-.exp{
-    padding:20px 0
-}
-.work{
-    padding-top:50px ;
-}
-.clients{
-    padding:50px 0;
-}
-.carousel-inner i{
-    margin-bottom:20px;
-}
-.carousel-inner{
-    margin-top:50px;
-}
+
 .sectionTitle h4{
     font-size: 3em;
 }
 .sectionTitle{
     margin-bottom:10px;
 }
+.navbar-expand-lg .navbar-nav .nav-item {
+    padding: 10px;
+}
+.heroSection{
+    padding-top:0;
+}
+.advIcon {
+    width: 66px;
+    height: 72px;}
+    .advList li{
+        margin-bottom:15px;
+    }
+    .advImg{
+        height: auto;
+    }
+    .advImg img{
+        height: auto;
+        width: 100%;;
+    }
+    .advantegesText .sectionTitle {
+        margin-bottom: 10px;
+    }
+    .contactForm .form-group{
+        width:47.6%;
+    }
         }
 
 @media(max-width:1200px){
-.galleryItem {
-    width:50%;
-}
+    .owl-carousel .owl-stage-outer{
+        overflow: hidden;
+        }
+        .contactForm .form-group{
+            width:48.4%;
+        }
+    
 }
