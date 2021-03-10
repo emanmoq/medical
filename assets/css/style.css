@@ -554,6 +554,20 @@ border-top:1px solid var(--shadow-hover-color)
         .modal .contactForm{
             margin-top:50px;
         }
+.modal .sendBtn{
+    margin:auto;
+    float: none;
+}
+.modal .form-group{
+    position: relative;
+}
+.fa-calendar{
+    position: absolute;
+    left:10%;
+    top:30%;
+    color:var(--sub-font-color);
+    font-size:20px;
+}
 @media(min-width:300px) and (max-width:767px){
     section{
         padding-top:50px !important;
@@ -675,7 +689,12 @@ header{
         float: none;
         margin-top:30px;
     }
-
+.modal-dialog{
+    max-width: 100%;;
+}
+.modal .contactForm .form-group{
+    width:100%;
+}
 }
 @media(min-width:768px) and (max-width:1023px){
     section{
@@ -772,6 +791,12 @@ header{
     }
     .contactForm .form-group{
         width:47.6%;
+    }
+    .modal .contactForm .form-group {
+        width: 47.4%;
+    }
+    .modal .contactForm .form-group.textareaFormGroup{
+        width:100%;
     }
         }
 
